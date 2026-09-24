@@ -87,6 +87,8 @@ export default function Dashboard ({vehicles, services}) {
           </div>
           <div className="text-right p-3 content-center">
             <button onClick={() => window.print()} className="mr-4 bg-orange-500 hover:bg-orange-700 px-3 py-2 rounded-lg text-sm font-semibold cursor-pointer">Export</button>
+          <div className="flex items-center justify-end gap-6 p-3 content-center">
+            <button onClick={() => window.print()} className="bg-orange-500 hover:bg-orange-700 px-3 py-2 rounded-lg text-sm font-semibold cursor-pointer">Export</button>
             <p className="font-semibold">£{s.cost.toFixed(2)}</p>
           </div>
         </div>
